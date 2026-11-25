@@ -6,6 +6,7 @@ layout: layouts/base.njk
   {% if page.date %}
   <p class="meta"><time datetime="{{ page.date.toISOString() }}">{{ page.date.toISOString().slice(0, 10) }}</time></p>
   {% endif %}
+  <p class="translation-note translation-note--top">ဘာသာပြန်တာ ကောင်းမယ်လို့ တကယ်မျှော်လင့်ပါတယ် — အမှားအချို့ ပါဝင်နိုင်ပါတယ်။</p>
   <div class="post-body">
   {{ content | safe }}
   </div>
